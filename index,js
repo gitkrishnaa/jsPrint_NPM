@@ -1,0 +1,10 @@
+const  print={
+str:"",
+s:function(val){
+if(val != undefined){print.str+=val;}
+function x(){
+console.log(print.str);print.str="";}
+return x;},
+n:function(val1){console.log(val1)},}
+
+module.exports = print;
